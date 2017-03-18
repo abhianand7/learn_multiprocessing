@@ -1,17 +1,14 @@
 #
 # A test file for the `multiprocessing` package
 #
-# Copyright (c) 2006-2008, R Oudkerk
-# All rights reserved.
-#
 
 import time, sys, random
 from Queue import Empty
 
-import multiprocessing               # may get overwritten
+# import multiprocessing               # may get overwritten
 
 
-#### TEST_VALUE
+# TEST_VALUE
 
 def value_func(running, mutex):
     random.seed()
